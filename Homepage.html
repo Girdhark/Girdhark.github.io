@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Home Page</title>
+		<style>
+		* {
+			box-sizing: border-box;
+		}
+		/* Style the body */
+		body {
+		  font-family: Arial, Helvetica, sans-serif;
+		  margin: 0;
+		}
+		/* Header/logo Title */
+		.header {
+		  padding: 80px;
+		  text-align: center;
+		  background: orange ;
+		  color: orange;
+		}
+		/* Increase the font size of the heading */
+		.header h1 {
+		  font-size: 40px;
+		}
+			.navbar {
+			  overflow: hidden;
+			  background-color: #333;
+			  position: sticky;
+			  position: -webkit-sticky;
+			  top: 0;
+			}
+		/* Style the navigation bar links */
+			.navbar a {
+			  float: left;
+			  display: block;
+			  color: white;
+			  text-align: center;
+			  padding: 14px 20px;
+			  text-decoration: none;
+			}
+			
+			/* Right-aligned link */
+			.navbar a.right {
+			  float: right;
+			}
+			/* Change color on hover */
+			.navbar a:hover {
+			  background-color: #ddd;
+			  color: black;
+			}
+			/* Active/current link */
+			.navbar a.active {
+			  background-color: #666;
+			  color: white;
+			}
+			/* Column container */
+			.row {  
+			  display: -ms-flexbox; /* IE10 */
+			  display: flex;
+			  -ms-flex-wrap: wrap; /* IE10 */
+			  flex-wrap: wrap;
+			}
+
+			/* Create two unequal columns that sits next to each other */
+			/* Sidebar/left column */
+			.side {
+			  -ms-flex: 30%; /* IE10 */
+			  flex: 20%;
+			  background-color: #f1f1f1;
+			  padding: 20px;
+			}
+			.main {   
+			  -ms-flex: 70%; /* IE10 */
+			  flex: 80%;
+			  background-color: white;
+			  padding: 20px;
+			}
+
+			/* Fake image, just for this example */
+			.fakeimg {
+			  background-color: #aaa;
+			  width: 100%;
+			  padding: 20px;
+			}
+			/* Footer */
+			.footer {
+			  padding: 20px;
+			  text-align: center;
+			  background: #ddd;
+			}
+
+			/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+			@media screen and (max-width: 700px) {
+			  .row {   
+				flex-direction: column;
+			  }
+			}
+
+			/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+			@media screen and (max-width: 400px) {
+			  .navbar a {
+				float: none;
+				width: 100%;
+			  }
+			
+		</style>
+	</head>
+	<body>
+		<div style="padding: 80px; text-align: center; background:orange; color: white;">
+			<h1>Gurukrupa Traveling Agencies</h1>
+			<p><b>A Destination For The New Millennium</b></p>
+		</div>
+		<div class="navbar">
+			<a href="#" class="active">Home</a>
+			<a href="#">Gallery</a>
+			<a href="#">About us</a>
+			<a href="#">Singh ln</a>
+			<a href="#">Sign Up</a>
+		</div>
+		
+		<div class="row">
+			<div class="side">
+				<h2>Social Media</h2>
+				<h4><a href="https://www.facebook.com/Gurukrupa Travel Agency/">Facebook</a></h4>
+				<h4><a href="https://www.youtube.com/Gurukrupa Travel Agency">Youtube</a></h4>
+				<h4><a href="https://www.instagram.com/Gurukrupa Travel Agency/">Instagram</a></h4>
+				<h4><a href="https://www.twitter.com/Gurukrupa Travel Agency/">twitter</a></h4>
+			</div>
+			<div class="main">
+				<h2>About Gurukrupa Travel Agency </h2>
+				<h5>Description November 21, 2016</h5>
+				<img src="https://tse4.mm.bing.net/th?id=OIP.Ls9zZM14tyIjEVGBWacheQHaHa&pid=Api&P=0&w=300&h=300" style="height:300px; width=300px;">
+				<p>A travel agency is a private retailer or public service that provides travel and tourism-related services to the general public on behalf of accommodation or travel suppliers. Travel agencies can provide outdoor recreation activities, airlines, car rentals, cruise lines, hotels, railways, travel insurance, package tours, insurance, guide books, public transport timetables, car rentals, and bureau de change services. Travel agencies can also serve as general sales agents for airlines that do not have offices in a specific region. A travel agency's main function is to act as an agent, selling travel products and services on behalf of a supplier. They do not keep inventory in-hand unless they have pre-booked hotel rooms or cabins on a cruise ship for a group travel event such as a wedding, honeymoon, or other group event.
+
+</p>
+				<br>
+				<h2>BIO</h2>
+				<table border=1 width=50%>
+					<tr>
+						<th>Company Name(s)</th>
+						<td>Gurukrupa Travel Agency</td>
+					</tr>
+					<tr>
+						<th>Director(s)</th>
+						<td>Naimish Savaliya,
+							Girdhar Kataria</td>
+					</tr><tr>
+						<th>Producer(s)</th>
+						<td>Girdhar Kataria</td>
+					</tr><tr>
+						<th>Designer(s)</th>
+						<td>Naimish Savaliya</td>
+					</tr><tr>
+						<th>Platform(s)</th>
+						<td>Microsoft Windows,
+							Android,
+							iOS
+						</td>
+					</tr><tr>
+						<th>Release	</th>
+						<td>December 21, 2020</td>
+					</tr>
+					</tr>
+				</table>
+				<h2>Social Media Presence</h2>
+				<table border=1 width=50%>
+					<tr>
+						<th>Facebook</th>
+						<td><a href="https://www.facebook.com/Gurukrupa Travel Agency/">Gurukrupa</a></td>
+					</tr>
+					<tr>
+						<th>YouTube</th>
+						<td><a href="https://www.youtube.com/Gurukrupa Travel Agency">Gurukrupa</a></td>
+					</tr><tr>
+						<th>Instagram</th>
+						<td><a href="https://www.instagram.com/Gurukrupa Travel Agency/">Gurukrupa</a></td>
+					</tr><tr>
+				
+					</tr>
+				</table>
+				
+				 
+				<h2>Gurukrupa Travel Agency</h2>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/-YUWcJA8X-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			  </div>
+		</div>
+		
+		
+		<div class="footer">
+		  <h4>Copyright © 2020 Gujarat,India inc. All rights reserved</br><b>Devloped by Naimish Savaliya,Girdhar Kataria</b></h4>
+		</div>
+		
+	</body>
+</html>
